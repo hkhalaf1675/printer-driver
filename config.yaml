@@ -1,0 +1,4 @@
+# Default printer mappings.
+defaults:
+  barcode: "Zebra_ZD420"
+  report: "HP_LaserJet_M404"

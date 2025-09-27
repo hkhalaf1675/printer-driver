@@ -1,0 +1,38 @@
+{
+  "name": "lims-printer-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "better-queue": "^3.8.12",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "escpos": "^3.0.0-alpha.6",
+    "escpos-usb": "^3.0.0-alpha.4",
+    "express": "^5.1.0",
+    "fs-extra": "^11.3.2",
+    "helmet": "^8.1.0",
+    "joi": "^18.0.1",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "pdf-to-printer": "^5.6.0",
+    "serialport": "^13.0.0",
+    "tmp": "^0.2.5",
+    "tmp-promise": "^3.0.3",
+    "uuid": "^8.3.2",
+    "winston": "^3.17.0",
+    "ws": "^8.18.3",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
